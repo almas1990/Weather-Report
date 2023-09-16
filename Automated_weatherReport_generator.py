@@ -37,7 +37,7 @@ def generate_weather_report(weather_data):
 
 
 def main():
-    api_key = "4fb8807eaf5fd0e7db711298f6cc2365"  # Replace with your OpenWeatherMap API key
+    api_key = "YOUR API KEY"  # Replace with your OpenWeatherMap API key
     city = input("Enter city name: ")
 
     weather_data = get_weather_data(api_key, city)
